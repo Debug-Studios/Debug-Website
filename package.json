@@ -6,5 +6,9 @@
   "repository": "git@github.com:Debug-Studios/Debug-Website.git",
   "author": "Debug Studios",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-airbnb": "^2.4.0"
+  }
 }
