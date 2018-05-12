@@ -1,0 +1,10 @@
+{
+  "name": "Debug-Website",
+  "version": "1.0.0",
+  "description": "Website for Debug Studios",
+  "main": "index.js",
+  "repository": "git@github.com:Debug-Studios/Debug-Website.git",
+  "author": "Debug Studios",
+  "license": "MIT",
+  "private": false
+}
