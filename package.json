@@ -13,7 +13,8 @@
     "src/**/*.{js,json,css,md}": ["eslint", "prettier --write", "git add"]
   },
   "scripts": {
-    "build": "parcel build src/views/index.pug --public-url ./"
+    "build": "parcel build src/views/index.pug --public-url ./",
+    "devServer": "parcel src/views/index.pug"
   },
   "author": "Debug Studios",
   "license": "MIT",
