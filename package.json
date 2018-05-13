@@ -4,19 +4,33 @@
   "description": "Website for Debug Studios",
   "main": "index.js",
   "repository": "git@github.com:Debug-Studios/Debug-Website.git",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": ["eslint", "prettier --write", "git add"]
+  },
   "author": "Debug Studios",
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "autoprefixer": "^8.4.1",
     "babel-cli": "^6.26.0",
     "babel-preset-airbnb": "^2.4.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.8.1"
+    "eslint-plugin-react": "^7.8.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.0",
+    "prettier": "^1.12.1"
   },
   "dependencies": {
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-pug": "^0.3.1"
   }
 }
