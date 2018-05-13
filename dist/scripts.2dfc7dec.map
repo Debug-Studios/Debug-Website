@@ -1,1 +1,0 @@
-{"version":3,"sources":["../scripts/index.js"],"names":["alert"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAAA,MAAM,OAAN","file":"scripts.2dfc7dec.map","sourceRoot":"../src/views","sourcesContent":["alert('hello');\n"]}
