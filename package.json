@@ -10,7 +10,11 @@
     }
   },
   "lint-staged": {
-    "*.js": ["eslint", "prettier --write", "git add"]
+    "src/**/*.{js,json,css,md}": [
+      "eslint",
+      "prettier --write",
+      "git add"
+    ]
   },
   "author": "Debug Studios",
   "license": "MIT",
@@ -24,7 +28,7 @@
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.1",
-    "husky": "^0.14.3",
+    "husky": "^1.0.0-rc.4",
     "lint-staged": "^7.1.0",
     "prettier": "^1.12.1"
   },
